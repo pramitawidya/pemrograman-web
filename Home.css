@@ -1,0 +1,148 @@
+.navbar{
+    text-align: right;
+    background-color:grey;
+    justify-content: space-between;
+    display: flex;
+
+}
+.navbar h2{
+    margin-left: 30px;
+}
+ .navbar ul{
+        list-style-type: none;
+        padding: 0px 20px;
+        position: relative;
+        display: inline-table;
+}
+.navbar ul li{
+    float: left;
+}
+
+.navbar ul li a{
+    color:white;
+    padding-right: 10px;
+    font-size: 20px;
+    text-align: center;
+    
+}
+.navbar ul li:hover{
+    background-color: navy;
+}
+
+.header{
+    background-color: navy;
+    color: white;
+    height: 50px;
+    text-align: center;
+    font-size: 35px;
+    padding: 40px;
+}
+#film1 {
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid navy;
+}
+#daftar1 {
+    display: none;
+    text-align: center;
+    border-bottom: 2px solid navy;
+}
+
+#film2 {
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid navy;
+}
+#daftar2 {
+    display: none;
+    text-align: center;
+    border-bottom: 2px solid navy;
+}
+#film3 {
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid navy;
+}
+#daftar3 {
+    display: none;
+    text-align: center;
+    border-bottom: 2px solid navy;
+}
+
+#film4 {
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid navy;
+}
+#daftar4 {
+    display: none;
+    text-align: center;
+    border-bottom: 2px solid navy;
+}
+
+#film5 {
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid navy;
+}
+#daftar5 {
+    display: none;
+    text-align: center;
+    border-bottom: 2px solid navy;
+}
+#film6 {
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid navy;
+}
+#daftar6 {
+    display: none;
+    text-align: center;
+    border-bottom: 2px solid navy;
+}
+
+.menu-toogle{
+    display: flex;
+    flex-direction: column;
+    height: 20px;
+    justify-content: space-between;
+    position: fixed;
+    margin-left: 93%;
+    }
+
+    /*
+    .menu-toogle span{
+        width: 28px;
+        height: 3px;
+        background-color: rgb(19, 97, 165);
+    }
+    
+
+     @media screen and (max-width: 768px){ 
+    .navbar ul{
+        width: 50%;
+    }
+    }
+
+
+    @media screen and (max-width: 576px){
+        .menu-toogle{
+            display: flex;
+            }
+
+        .navbar ul{
+            position: absolute;
+            right: 0;
+            flex-direction: column;
+            top: 0;
+            height: 100vh;
+            align-items: center;
+            justify-content: space-evenly;
+            background-color: rgb(39, 76, 109);
+            width: 50%;
+            transform: translateX(100%);
+            transition: all 1s;
+        }
+        
+    }
+    */
